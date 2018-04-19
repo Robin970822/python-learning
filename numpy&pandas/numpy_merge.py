@@ -10,10 +10,10 @@ print D
 print A.shape, D.shape
 
 # make vector A to matrix
-print A[np.newaxis,:]
-print A[np.newaxis,:].shape
-print A[:,np.newaxis]
-print A[:,np.newaxis].shape
+print A[np.newaxis, :]
+print A[np.newaxis, :].shape
+print A[:, np.newaxis]
+print A[:, np.newaxis].shape
 
 # inverse the vector
 A = A[:, np.newaxis]
