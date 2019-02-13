@@ -11,6 +11,6 @@ def mean(size, count):
 
 
 if __name__ == "__main__":
-    print mean(4, 100)
-    print mean(4, 1000)
-    print mean(4, 10000)
+    print mean(2, 100)
+    print mean(2, 1000)
+    print mean(2, 10000)
